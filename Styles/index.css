@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 4rem;
+    background-image: url(../images/bg-header-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.contenedor1{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Oscuro {
+    color: hsl(210, 10%, 33%);
+    font-weight: 900;
+    font-size: 1.5rem;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.claro{
+    color:  hsl(201, 11%, 66%);
+    padding: 1rem;
+    display: flex;
+    text-align: center;
+}
+
+#link{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+#link .verde{
+    background-color: hsl(171, 66%, 44%);
+    padding: 0.5rem;
+    border-radius: 14%;
+    box-shadow: 1px 1px 1px  hsl(171, 66%, 44%);
+}
+
+#link .azul{
+    background-color: hsl(233, 100%, 69%);
+    padding: 0.5rem;
+    border-radius: 14%;
+    box-shadow: 1px 1px 1px  hsl(233, 100%, 69%);
+}
+
+.imagen-texto{
+    width: 100%;
+}
+
+.computer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+    margin: auto;
+}
+
+#moverBloque{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.imagenTexto2{
+    width: 100%;
+}
+
+.Claro{
+    padding: 1rem;
+    color:  hsl(201, 11%, 66%);
+    text-align: center;
+}
+
+.imgtelefono{ 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+    margin: auto;
+}
+
+.contenedorTres{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.blacklist , .cuaderno , .preview{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.logos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 1rem;
+}
+
+.colorCaja{
+    width: 100%;
+    background: rgb(243, 243, 243);
+}
+
+.C{
+    width: 20%;
+    display: flex;
+    margin: auto;
+    padding: 1rem;
+}
+
+.ultimo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    gap: 2rem;
+    color: hsl(201, 11%, 66%);
+}
+
+#tooltip {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+    gap: 2rem;
+}
+
+.attribution{
+    display: none;
+}
+
+@media screen and (min-width:1440px) {
+
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 4rem;
+        background-image: url(../images/bg-header-desktop.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .claro {
+        color: hsl(201, 11%, 66%);
+        padding: 1rem;
+        display: flex;
+        text-align: center;
+        width: 58%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #link {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 10rem;
+        margin: auto;
+        padding: 1rem;
+    }
+
+    .imagen-texto {
+        width: 100%;
+        display: flex;;
+    }
+
+    .imgtelefono {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        padding: 1rem;
+        margin: auto;
+    }
+
+    #tituloTexto{
+        width: 100%;
+    }
+
+    .imagenesMover{
+        display: flex;
+        width: 100%;
+        margin-left: -12%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #ImagenTres{
+        margin-top: 0%;
+    }
+
+   #ImagenCuatro{
+        width: 30%;
+        margin-top: 2%;
+    }
+
+    #ultimaImagen{
+        margin-bottom: -2%;
+    }
+
+    .logos {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .anteultimaCaja {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .colorCaja{
+        display: flex;
+        width: 100%;
+    }
+
+    #logoC{
+        display: flex;
+        width: 40%;
+    }
+
+    #tooltip{
+        width: 24%;
+    }
+
+    .ultimo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: auto;
+        gap: 2rem;
+        color: hsl(201, 11%, 66%);
+    }
+    
+}
